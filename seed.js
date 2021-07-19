@@ -35,7 +35,7 @@ const seedRestaurant = [
     name: 'McDonalds',
     location: 'Dallas',
     cuisine: 'American',
-    image: 'https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/10/Restaurant-dining-room-overlooking-Chicago.jpg'
+    image: 'https://a.cdn-hotels.com/gdcs/production117/d1415/c26ee5de-3fd7-4cdc-bb9f-64df7f4a7e0b.jpg'
   },
 ]
 const seedMenu = [
