@@ -12,6 +12,10 @@ body {
   text-align: center;
 }
 
+.spacing{
+  margin-top:20%;
+}
+
 .menu{
   display: inline-block;
   padding: .5em;

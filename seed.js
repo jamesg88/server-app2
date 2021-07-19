@@ -23,7 +23,7 @@ const seedRestaurant = [
     name: 'SpiceGrill',
     location: 'Houston',
     cuisine: 'Indian',
-    image: 'https://www.exploregeorgia.org/sites/default/files/styles/slideshow_large/public/legacy_images/Sundial-Restaurant-and-Bar-web.jpg?itok=btSoS4ix'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFKp2OMZEx9s99tBVKFhP9Pau7N28tfizNw&usqp=CAU'
   },
   {
     name: 'BurgerKing',
@@ -35,7 +35,7 @@ const seedRestaurant = [
     name: 'McDonalds',
     location: 'Dallas',
     cuisine: 'American',
-    image: 'https://a.cdn-hotels.com/gdcs/production117/d1415/c26ee5de-3fd7-4cdc-bb9f-64df7f4a7e0b.jpg'
+    image: 'https://www.glimpsecorp.com/wp-content/uploads/2018/04/iStock-509934928.jpg'
   },
 ]
 const seedMenu = [
