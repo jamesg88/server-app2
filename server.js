@@ -36,12 +36,13 @@ app.get('/item/:id', async (req, res) => {
     res.json(allItems);
 })
 app.get('/restaurant', async (req, res) => {
-    const item = await Restaurant.findAll();
-    res.json(item);
+    const restaurants = await Restaurant.findAll();
+    // res.json(item);
+    res.render('restaurants', { restaurants })
 });
 app.get('/restaurant/:id', async (req, res) => {
-    const item = await restaurant.findByPk(req.params.id, {include:Menu });
-    res.json(item);
+    const restaurant = await Restaurant.findByPk(req.params.id, {include:Menu });
+    res.render('restaurant', { restaurant });
 });
 app.get('/menu/:id', async (req, res) => {
     const menu = await Menu.findByPk(req.params.id, {include:Item });
@@ -51,6 +52,7 @@ app.get('/menu/:id', async (req, res) => {
 app.get('/menu', async (req, res) => {
     const menu = await Menu.findAll(req.params.id, {include:Item });
     res.json(menu);
+    res.render('sauces', { sauces })
 });
 
 // Add new restaraunt
