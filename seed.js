@@ -23,7 +23,7 @@ const seedRestaurant = [
     name: 'SpiceGrill',
     location: 'Houston',
     cuisine: 'Indian',
-    image: 'https://cdn.cnn.com/cnnnext/dam/assets/170207144730-oxo-restaurant-super-169.jpg'
+    image: 'https://www.exploregeorgia.org/sites/default/files/styles/slideshow_large/public/legacy_images/Sundial-Restaurant-and-Bar-web.jpg?itok=btSoS4ix'
   },
   {
     name: 'BurgerKing',
