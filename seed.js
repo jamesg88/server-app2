@@ -10,7 +10,7 @@ const seedRestaurant = [
   {
     name: 'AppleBees',
     location: 'Texas',
-    cuisine: 'FastFood'
+    cuisine: 'DineIn'
   },
   {
     name: 'LittleSheep',
