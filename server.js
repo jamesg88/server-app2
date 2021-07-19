@@ -1,8 +1,18 @@
+const Handlebars = require('handlebars')
+const expressHandlebars = require('express-handlebars')
+const {allowInsecurePrototypeAccess} = require('@handlebars/allow-prototype-access')
 const express = require("express");
 const path = require('path'); //a node native module
 const {Restaurant, Menu, Item} = require('./models/index');
 
 const app = express();
+//Setup Templating Engine 
+const handlebars = expressHandlebars({
+    handlebars: allowInsecurePrototypeAccess(Handlebars)
+})
+app.engine('handlebars', handlebars)
+app.set('view engine', 'handlebars')
+
 const port = 3000;
 
 // Add this boilerplate middleware to successfully use req.body
@@ -30,7 +40,7 @@ app.get('/restaurant', async (req, res) => {
     res.json(item);
 });
 app.get('/restaurant/:id', async (req, res) => {
-    const item = await Restaurant.findByPk(req.params.id, {include:Menu });
+    const item = await restaurant.findByPk(req.params.id, {include:Menu });
     res.json(item);
 });
 app.get('/menu/:id', async (req, res) => {
@@ -45,7 +55,7 @@ app.get('/menu', async (req, res) => {
 
 // Add new restaraunt
 app.post('/restaurant', async (req, res) => {
-	let newRestaurant = await Restaurant.create(req.body);
+	let newRestaurant = await restaurant.create(req.body);
 	res.send('Created!')
 })
 

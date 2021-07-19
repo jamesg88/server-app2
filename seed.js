@@ -15,22 +15,22 @@ const seedRestaurant = [
   {
     name: 'LittleSheep',
     location: 'Dallas',
-    cuisine: 'Hotpot'
+    cuisine: 'Mediterranean'
   },
   {
-    name: 'Spice Grill',
+    name: 'SpiceGrill',
     location: 'Houston',
     cuisine: 'Indian'
   },
   {
-    name: 'burgetking',
+    name: 'BurgerKing',
     location: 'Dallas',
-    cuisine: 'Hotpot'
+    cuisine: 'American'
   },
   {
-    name: 'MCDS',
+    name: 'McDonalds',
     location: 'Dallas',
-    cuisine: 'Hotpot'
+    cuisine: 'American'
   },
 ]
 const seedMenu = [
