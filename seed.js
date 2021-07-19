@@ -10,27 +10,32 @@ const seedRestaurant = [
   {
     name: 'AppleBees',
     location: 'Texas',
-    cuisine: 'DineIn'
+    cuisine: 'DineIn',
+    image: 'https://theculturetrip.com/wp-content/uploads/2017/02/canlispenthousea_54961.jpg'
   },
   {
     name: 'LittleSheep',
     location: 'Dallas',
-    cuisine: 'Mediterranean'
+    cuisine: 'Mediterranean',
+    image: 'https://cdn.vox-cdn.com/thumbor/LxPPZ3M7j0KMYBwedx_yg_QxC5I=/0x0:1920x1238/1400x1050/filters:focal(799x700:1105x1006):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/63294545/aquashard_ldn_experience_1a_x4.0.jpg'
   },
   {
     name: 'SpiceGrill',
     location: 'Houston',
-    cuisine: 'Indian'
+    cuisine: 'Indian',
+    image: 'https://luxurysafes.me/blog/wp-content/uploads/2019/01/The-Top-10-Luxury-Restaurants-in-Paris-8.jpg'
   },
   {
     name: 'BurgerKing',
     location: 'Dallas',
-    cuisine: 'American'
+    cuisine: 'American',
+    image: 'https://www.elitetraveler.com/wp-content/uploads/2017/10/Hotel-Eden-La-Terrazza-scaled-e1600071873644-730x450.jpg'
   },
   {
     name: 'McDonalds',
     location: 'Dallas',
-    cuisine: 'American'
+    cuisine: 'American',
+    image: 'https://www.cleveland.com/resizer/gR3A0AVDyN2B33ushglvmQ2bfbY=/450x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/expo.advance.net/img/fe84d95bf7/width2048/253_16datenight.jpeg'
   },
 ]
 const seedMenu = [

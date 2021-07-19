@@ -1,8 +1,10 @@
  <section>
-    There are {{restaurants.length}} restaurants.
+    <h2 class="subtitle">Pick from one of our {{restaurants.length}} star-restaturants.</h2>
     {{#each restaurants}}
-        <article>
+        <article class="menu">
+           <img src="{{this.image}}"/>
             <h2>{{this.name}}</h2>
         </article>
     {{/each}}
+    <img src="https://www.linguahouse.com/linguafiles/md5/d01dfa8621f83289155a3be0970fb0cb" alt="">
 </section>

@@ -1,7 +1,19 @@
 body {
   background-color: white;
+  text-align: center;
+}
+
+
+.sub{
+  color: goldenrod;
 }
 
 .center{
   text-align: center;
 }
+
+.menu{
+  display: inline-block;
+  padding: 1em;
+}
+
