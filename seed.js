@@ -23,19 +23,19 @@ const seedRestaurant = [
     name: 'SpiceGrill',
     location: 'Houston',
     cuisine: 'Indian',
-    image: 'https://luxurysafes.me/blog/wp-content/uploads/2019/01/The-Top-10-Luxury-Restaurants-in-Paris-8.jpg'
+    image: 'https://cdn.cnn.com/cnnnext/dam/assets/170207144730-oxo-restaurant-super-169.jpg'
   },
   {
     name: 'BurgerKing',
     location: 'Dallas',
     cuisine: 'American',
-    image: 'https://www.elitetraveler.com/wp-content/uploads/2017/10/Hotel-Eden-La-Terrazza-scaled-e1600071873644-730x450.jpg'
+    image: 'https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/10/Restaurant-dining-room-overlooking-Chicago.jpg'
   },
   {
     name: 'McDonalds',
     location: 'Dallas',
     cuisine: 'American',
-    image: 'https://www.cleveland.com/resizer/gR3A0AVDyN2B33ushglvmQ2bfbY=/450x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/expo.advance.net/img/fe84d95bf7/width2048/253_16datenight.jpeg'
+    image: 'https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/10/Restaurant-dining-room-overlooking-Chicago.jpg'
   },
 ]
 const seedMenu = [
